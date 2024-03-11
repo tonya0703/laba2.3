@@ -1,0 +1,61 @@
+﻿  pch.cpp
+  UnitTest2.3.cpp
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(27,14): error C2833: 'operator string' is not a recognized operator or type
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(27,21): error C2059: syntax error: 'newline'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(27,29): error C2238: unexpected token(s) preceding ';'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,19): error C2143: syntax error: missing ';' before '&'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,12): error C2433: 'istream': 'friend' not permitted on data declarations
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,58): error C2238: unexpected token(s) preceding ';'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,19): error C2143: syntax error: missing ';' before '&'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,12): error C2433: 'ostream': 'friend' not permitted on data declarations
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,19): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,65): error C2238: unexpected token(s) preceding ';'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(32,26): error C2738: 'operator std::basic_string<char,std::char_traits<char>,std::allocator<char>>': is ambiguous or is not a member of 'Complex'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(9,7): message : see declaration of 'Complex'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(32,26): error C2270: '$S1': modifiers not allowed on nonmember functions
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(33,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(35,20): error C2065: 'im': undeclared identifier
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(36,20): error C2065: 're': undeclared identifier
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(38,18): error C2440: 'return': cannot convert from 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' to 'int'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(38,18): message : No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(39,1): error C2617: '$S1': inconsistent return statement
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(32,26): message : see declaration of '$S1'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,1): error C2872: 'istream': ambiguous symbol
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,12): message : could be 'int istream'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iosfwd(237,19): message : or       'std::istream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,8): error C2143: syntax error: missing ';' before '&'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,1): error C2086: 'int istream': redefinition
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,12): message : see declaration of 'istream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,23): error C2872: 'istream': ambiguous symbol
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(29,12): message : could be 'int istream'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iosfwd(237,19): message : or       'std::istream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,32): error C2065: 'in': undeclared identifier
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,45): error C2065: 'r': undeclared identifier
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,36): error C2275: 'Complex': expected an expression instead of a type
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,10): error C2473: 'operator >>': looks like a function definition, but there is no parameter list.
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,46): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,22): error C2440: 'initializing': cannot convert from 'initializer list' to 'int &'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,22): message : A reference type cannot be value-initialized
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,48): error C2059: syntax error: '{'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,48): error C2143: syntax error: missing ';' before '{'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,48): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,1): error C2872: 'ostream': ambiguous symbol
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,12): message : could be 'int ostream'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iosfwd(238,19): message : or       'std::ostream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,8): error C2143: syntax error: missing ';' before '&'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,8): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,1): error C2086: 'int ostream': redefinition
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,12): message : see declaration of 'ostream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,23): error C2872: 'ostream': ambiguous symbol
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.h(30,12): message : could be 'int ostream'
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.37.32822\include\iosfwd(238,19): message : or       'std::ostream'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,32): error C2065: 'out': undeclared identifier
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(49,37): error C2059: syntax error: 'const'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(50,1): error C2143: syntax error: missing ';' before '{'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(50,1): error C2447: '{': missing function header (old-style formal list?)
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Main.cpp(8,2): error C2872: '>>': ambiguous symbol
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Complex.cpp(41,10): message : could be 'int &>>'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Main.cpp(8,2): message : or       '>>'
+C:\Users\TONYA\source\repos\Project2.3\Project2.3\Main.cpp(8,14): fatal  error C1903: unable to recover from previous error(s); stopping compilation
